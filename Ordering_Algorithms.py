@@ -233,6 +233,9 @@ def main(verbose=False):
 
 
 def sort_list(l, algorithm, verbose=False):
+    assert type(l) == list, "l must be a list."
+    assert type(algorithm) == str, "algorithm must be a string in ['selection','bubble','insertion','merge','quick','all']"
+    
     if algorithm=='selection':
         Sort(l).selection_sort(verbose=verbose)
     elif algorithm=='bubble':
@@ -245,6 +248,8 @@ def sort_list(l, algorithm, verbose=False):
         Sort(l).quick_sort(verbose=verbose)
     elif algorithm == 'all':
         Sort(l).show_algos()
+    else:
+        print("No algorithm selected. algorithm must be a string in ['selection','bubble','insertion','merge','quick','all']."
 
 if __name__ == "__main__":
     main()
