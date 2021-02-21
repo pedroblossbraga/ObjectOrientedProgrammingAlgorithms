@@ -1,6 +1,8 @@
-===================
+=================================
+
 # Ordering Algorithms
-===================
+=================================
+
 
 Implementation of a class (Order) with methods of the sorting algorithms:
 - Selection Sort
