@@ -137,7 +137,6 @@ class Sort:
             self.grid, self.l0, l, c, n, self.grid)
             )
         if l == sorted(self.l0) and len(l)==self.n: print('Merge sort , list: ', l)
-        print(l)
         return c
 
     def partition(self,
