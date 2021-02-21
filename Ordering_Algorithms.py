@@ -249,7 +249,7 @@ def sort_list(l, algorithm, verbose=False):
     elif algorithm == 'all':
         Sort(l).show_algos()
     else:
-        print("No algorithm selected. algorithm must be a string in ['selection','bubble','insertion','merge','quick','all']."
+        print("No algorithm selected. algorithm must be a string in ['selection','bubble','insertion','merge','quick','all'].")
 
 if __name__ == "__main__":
     main()
