@@ -4,7 +4,7 @@
 =================================
 
 
-Implementation of a class (Order) with methods of the sorting algorithms:
+Implementation of a class (Sort) with methods of the sorting algorithms:
 - Selection Sort
 - Bubble Sort
 - Insertion Sort
@@ -22,28 +22,18 @@ Implementation of a class (Order) with methods of the sorting algorithms:
             Selection sort , list:  [23, 123, 234, 234, 657, 789]
             Bubble sort , list:  [23, 123, 234, 234, 657, 789]
             Insertion sort , list:  [23, 123, 234, 234, 657, 789]
-            [234, 123, 657, 23, 789, 234]
-            [234, 123, 657, 23, 789, 234]
-            [234, 123, 657, 23, 789, 234]
-            [234, 123, 657, 23, 789, 234]
-            [123, 234, 657, 23, 789, 234]
-            [123, 234, 657, 23, 789, 234]
-            [123, 234, 657, 23, 789, 234]
-            [123, 234, 657, 23, 789, 234]
-            [123, 234, 657, 23, 234, 789]
-            [123, 234, 657, 23, 234, 789]
             Merge sort , list:  [23, 123, 234, 234, 657, 789]
-            [23, 123, 234, 234, 657, 789]
             Quick sort , list:  [23, 123, 234, 234, 657, 789]
             Quick sort , list:  [23, 123, 234, 234, 657, 789]
             Quick sort , list:  [23, 123, 234, 234, 657, 789]
             Quick sort , list:  [23, 123, 234, 234, 657, 789]
                     Algorithm  Process time (s)   O(n)
-            0  Insertion Sort          0.000023   O(6)
+            0  Insertion Sort          0.000021   O(6)
             1     Bubble Sort          0.000031   O(6)
-            2      Quick Sort          0.000075   O(9)
-            3  Selection Sort          0.000082   O(5)
-            4      Merge Sort          0.000150  O(16)
+            2      Merge Sort          0.000058  O(16)
+            3      Quick Sort          0.000064   O(9)
+            4  Selection Sort          0.000070   O(5)
+
 
 - insertion sort
 
